@@ -8,7 +8,7 @@ In any case, I'm using the [sample data](https://community.tableau.com/docs/DOC-
 
 Pandas provides two main abstractions, the 1D "Series" or the 2D "dataframe".  We're going to use the "dataframe" which is a 2D size-mutable tabular structure.  The columns can be heterogenously typed and labelled.  This data structure is clearly a natural fit for an Excel worksheet, and Pandas provides functionality to import Excel data out of the box.
 
-First, you'll need to install Python 3, and then Pandas with `pip3 install pandas`.  You'll also need `xlrd`: `pip3 install xlrd`.
+First, you'll need to [install Python 3](https://www.python.org/downloads/windows/), and then Pandas with `pip3 install pandas`.  You'll also need `xlrd`: `pip3 install xlrd`.
 
 Create a file called "whatever.py" or, you know, whatever.  At the top, add:
 
