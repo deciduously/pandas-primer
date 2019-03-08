@@ -1,6 +1,6 @@
 # Ben's Pandas Primer
 
-Hi Skip!  I do this best in medium-form bloggy-type tutorial form, [it turns out](https://dev.to/deciduously).  Bear with me.
+Hi Skip!  I do this best in medium-length bloggy-type tutorial form, [it turns out](https://dev.to/deciduously).  Bear with me.
 
 So, without a clear idea of the shape of your dataset, it's tough to put together a "template" you can just copy/paste.  When you said "excel database" are you you talking some super fancy shit with forms and whatnot?  Or just a bunch of sheets?  Either way this library will help you out but the complexity involved will naturally differ.
 
@@ -40,7 +40,7 @@ Index(['Row ID', 'Order ID', 'Order Date', 'Ship Date', 'Ship Mode',
       dtype='object')
 ```
 
-Groovy.  We can pull out columns to Python variables by indexing into `df` with square brackets, like you would regular Python dictionary.  For instance, to get the 0th element of `my_list = [2,3,4]`, you'd write `my_list[0]` - this gets you `2`.
+Groovy.  We can pull out columns to Python variables by indexing into `df` with square brackets, like you would regular Python list.  For instance, to get the 0th element of `my_list = [2,3,4]`, you'd write `my_list[0]` - this gets you `2`.
 
 ```python
 order_ids = df['Order ID']
